@@ -1,0 +1,133 @@
+body{
+    font-family: "Nunito Sans", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.total{
+
+    width: 1000px;
+    margin: auto;
+    padding: 0px 50px;
+}
+.profile_pic{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.username_bio{
+    line-height: 30px;
+
+}
+.username{
+    font-size: 24px;
+    font-weight: 500;
+}
+.bio{
+    font-size: 14px;
+    font-weight: 200;
+    color: #727272;
+}
+
+.main_1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.blog_image{
+    width: 300px;
+    height: 200px;
+    object-fit:cover;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.blog_name{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.blog_time, .blog_email{
+    font-size: 12px;
+    font-weight: 200;
+    color: #727272;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 10px; */
+}
+
+.total_blog{
+    width: 300px;
+    margin-bottom: 50px;
+    transition: 100ms;
+}
+
+.all_blogs ul{
+    padding: 0px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+.total_blog:hover{
+    transition: 500ms;
+    transform: scale(1.04);
+}
+
+.total_blog:active{
+    transition: 500ms;
+    transform: scale(0.98);
+}
+
+.blogClickImg{
+    width: 1000px;
+    height: 200px;
+    object-fit:cover;
+    margin-bottom: 20px;
+}
+
+.blog_title{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.details_2{
+    margin-bottom: 20px;
+}
+.heading1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.paragraph{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #727272;
+}
+.footer{
+    height: 30vh;
+}
+
+.all_blogs ul a{
+    text-decoration: none;
+    color: black;
+}
