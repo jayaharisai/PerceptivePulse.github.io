@@ -131,3 +131,32 @@ body{
     text-decoration: none;
     color: black;
 }
+
+
+@media only screen and (max-width: 1300px) {
+    .total{
+        width: 700px;
+    }
+    .all_blogs ul{
+        grid-template-columns: auto auto;
+    }
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .total{
+        width: 700px;
+    }
+    .all_blogs ul{
+        grid-template-columns: auto auto;
+    }
+  }
+
+  @media only screen and (max-width: 810px) {
+    .total{
+        width: 400px;
+    }
+    .all_blogs ul{
+        grid-template-columns: auto;
+    }
+  }
